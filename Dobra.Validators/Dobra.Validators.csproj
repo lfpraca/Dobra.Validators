@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+        <TargetFrameworks>net8.0; netstandard2.1</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<WarningsAsErrors>nullable</WarningsAsErrors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>0.1.0</Version>
+
+		<Title>Dobra Validators</Title>
+		<Summary>Extremely performant brazilian documents validator</Summary>
+		<Description>Extremely performant brazilian documents validator</Description>
+		<PackageTags>cpf;cnpj;brazil</PackageTags>
+		<Authors>lfpraca</Authors>
+		<PackageProjectUrl>https://github.com/lfpraca/Dobra.Validators</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/lfpraca/Dobra.Validators</RepositoryUrl>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
+
+</Project>
+
+
