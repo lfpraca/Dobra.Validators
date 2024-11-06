@@ -5,6 +5,7 @@ public class CnpjTests {
     [TestCase("94523007000131")]
     [TestCase("87491461000192")]
     [TestCase("31411114000158")]
+    [TestCase("72264924000106")]
     public void ValidCnpj(string cnpj) {
         var res = CnpjValidator.Validate(cnpj);
 

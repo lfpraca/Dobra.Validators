@@ -32,12 +32,12 @@ public static class CnpjValidator {
                 }
 
                 int digito1 = sum1 % 11;
-                if (digito1 == 1) { digito1 = 0; } else { digito1 = 11 - digito1; }
+                if (digito1 < 2) { digito1 = 0; } else { digito1 = 11 - digito1; }
 
                 sum2 += digito1 * 2;
 
                 int digito2 = sum2 % 11;
-                if (digito2 == 1) { digito2 = 0; } else { digito2 = 11 - digito2; }
+                if (digito2 < 2) { digito2 = 0; } else { digito2 = 11 - digito2; }
 
                 return digito1 == *(ptr + 12) - '0' && digito2 == *(ptr + 13) - '0';
             }
